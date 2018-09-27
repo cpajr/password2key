@@ -21,8 +21,8 @@ print()
 form = cgi.FieldStorage()
 
 #print("Gathering IP Address information....")
-ip_addr1 = "172"
-ip_addr2 = "028"
+ip_addr1 = "***"
+ip_addr2 = "***"
 ip_addr3 = form.getvalue('ip_addr3')
 ip_addr4 = form.getvalue('ip_addr4')
 
@@ -49,7 +49,7 @@ except ValueError:
 
 #Print out the System IP Address
 
-system_ip_addr = "172.28." + ip_addr3 + "." + ip_addr4
+system_ip_addr = "*******" + ip_addr3 + "." + ip_addr4
 
 #Create EngineID
 lead_zeros = "000000000000"
